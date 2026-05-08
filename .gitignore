@@ -1,0 +1,11 @@
+# Local screenshots & dev artifacts
+.playwright-mcp/
+*.log
+.DS_Store
+
+# Source originals (we keep optimized copies in assets/img)
+source-photos/
+assets/images/
+
+# Local server logs
+/tmp/
