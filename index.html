@@ -32,7 +32,7 @@
   "image": "https://millerslandscapesupplies.com/assets/img/og-share.jpg",
   "logo": "https://millerslandscapesupplies.com/assets/img/logo-badge.jpg",
   "telephone": "+1-248-437-8009",
-  "email": "info@millerslandscapesupplies.com",
+  "email": "millerslandscapesupply@gmail.com",
   "url": "https://millerslandscapesupplies.com/",
   "priceRange": "$",
   "address": {
@@ -114,7 +114,7 @@
       <ul class="hero-marks">
         <li><strong>Pickup &amp; delivery</strong></li>
         <li><strong>Mon to Sat</strong></li>
-        <li><strong>Bulk or by the bag</strong></li>
+        <li><strong>Bulk by the yard or ton</strong></li>
       </ul>
     </div>
   </section>
@@ -157,34 +157,48 @@
       <header class="section-head">
         <p class="eyebrow">In the yard right now</p>
         <h2>Pick what you need.</h2>
-        <p class="section-sub">Bulk by the yard, by the ton, or by the scoop. Bagged options on hand for small jobs.</p>
+        <p class="section-sub">Bulk by the yard, by the ton, or by the scoop. Pull up with a truck or trailer and we will load you.</p>
       </header>
 
       <div class="product-grid">
 
         <article class="product-card" id="mulch">
-          <a href="#mulch" class="product-media" aria-hidden="true">
-            <img src="assets/img/mulch-cedar-hand.jpg" alt="Cedar mulch from Miller's Landscape and Supply" loading="lazy">
-          </a>
+          <div class="product-media product-slideshow" data-slideshow>
+            <img class="slide is-active" src="assets/img/mulch-black-hand.jpg" alt="Black mulch from Miller's Landscape and Supply" data-variety="black" loading="lazy">
+            <img class="slide" src="assets/img/mulch-brown-hand.jpg" alt="Brown mulch from Miller's Landscape and Supply" data-variety="brown" loading="lazy">
+            <img class="slide" src="assets/img/mulch-cedar-pile.jpg" alt="Cedar mulch pile from Miller's Landscape and Supply" data-variety="cedar" loading="lazy">
+            <img class="slide" src="assets/img/mulch-cedar-hand-2.jpg" alt="Cedar mulch in hand from Miller's Landscape and Supply" data-variety="cedar" loading="lazy">
+            <img class="slide" src="assets/img/mulch-mixed-hand.jpg" alt="Mixed hardwood mulch from Miller's Landscape and Supply" data-variety="mixed-hardwood" loading="lazy">
+          </div>
           <div class="product-body">
             <h3>Mulch</h3>
             <p>For beds, around trees, and finishing touches. Refresh every spring.</p>
-            <ul class="varieties">
-              <li>Black</li><li>Brown</li><li>Cedar</li><li>Mixed Hardwood</li>
+            <ul class="varieties varieties--selectable" role="tablist" aria-label="Mulch varieties">
+              <li><button type="button" class="variety-chip" data-variety="black" role="tab" aria-selected="true">Black</button></li>
+              <li><button type="button" class="variety-chip" data-variety="brown" role="tab" aria-selected="false">Brown</button></li>
+              <li><button type="button" class="variety-chip" data-variety="cedar" role="tab" aria-selected="false">Cedar</button></li>
+              <li><button type="button" class="variety-chip" data-variety="mixed-hardwood" role="tab" aria-selected="false">Mixed Hardwood</button></li>
             </ul>
             <a class="btn btn-link" href="tel:+12484378009">Call to order</a>
           </div>
         </article>
 
         <article class="product-card" id="topsoil">
-          <a href="#topsoil" class="product-media" aria-hidden="true">
-            <img src="assets/img/compost-hand.jpg" alt="Premium compost from Miller's Landscape and Supply" loading="lazy">
-          </a>
+          <div class="product-media product-slideshow" data-slideshow>
+            <img class="slide is-active" src="assets/img/topsoil-detail.jpg" alt="Premium topsoil from Miller's Landscape and Supply" data-variety="topsoil" loading="lazy">
+            <img class="slide" src="assets/img/topsoil-detail-2.jpg" alt="Premium topsoil closeup" data-variety="topsoil" loading="lazy">
+            <img class="slide" src="assets/img/compost-pile.jpg" alt="Compost pile at Miller's Landscape and Supply" data-variety="compost" loading="lazy">
+            <img class="slide" src="assets/img/compost-hand-new.jpg" alt="Compost in hand at Miller's Landscape and Supply" data-variety="compost" loading="lazy">
+            <img class="slide" src="assets/img/blend-50-50-pile.jpg" alt="50/50 topsoil and compost mix pile" data-variety="blend" loading="lazy">
+            <img class="slide" src="assets/img/blend-50-50-hand.jpg" alt="50/50 topsoil and compost mix closeup" data-variety="blend" loading="lazy">
+          </div>
           <div class="product-body">
             <h3>Topsoil &amp; Compost</h3>
             <p>Establish a lawn, regrade, fill beds, top dress. Rich and screened.</p>
-            <ul class="varieties">
-              <li>Premium Topsoil</li><li>Compost</li><li>50/50 Mix</li>
+            <ul class="varieties varieties--selectable" role="tablist" aria-label="Topsoil and compost varieties">
+              <li><button type="button" class="variety-chip" data-variety="topsoil" role="tab" aria-selected="true">Premium Topsoil</button></li>
+              <li><button type="button" class="variety-chip" data-variety="compost" role="tab" aria-selected="false">Compost</button></li>
+              <li><button type="button" class="variety-chip" data-variety="blend" role="tab" aria-selected="false">50/50 Mix</button></li>
             </ul>
             <a class="btn btn-link" href="tel:+12484378009">Call to order</a>
           </div>
@@ -205,20 +219,28 @@
         </article>
 
         <article class="product-card" id="gravel">
-          <a href="#gravel" class="product-media" aria-hidden="true">
-            <img src="assets/img/stone-21aa-mix.jpg" alt="21AA limestone and gravel from Miller's Landscape and Supply" loading="lazy">
-          </a>
+          <div class="product-media product-slideshow" data-slideshow>
+            <img class="slide is-active" src="assets/img/stone-21aa-crushed-new.jpg" alt="21AA crushed concrete from Miller's Landscape and Supply" data-variety="21aa-concrete" loading="lazy">
+            <img class="slide" src="assets/img/yard-asphalt-millings.jpg" alt="Asphalt millings pile" data-variety="millings" loading="lazy">
+            <img class="slide" src="assets/img/stone-21aa-limestone-new.jpg" alt="21AA limestone from Miller's Landscape and Supply" data-variety="21aa-limestone" loading="lazy">
+            <img class="slide" src="assets/img/stone-6a-limestone-new.jpg" alt="6A clean limestone from Miller's Landscape and Supply" data-variety="6a-limestone" loading="lazy">
+            <img class="slide" src="assets/img/yard-egg-rock.jpg" alt="Egg rock pile" data-variety="egg-rock" loading="lazy">
+            <img class="slide" src="assets/img/stone-pea-hand.jpg" alt="Pea stone pile from Miller's Landscape and Supply" data-variety="pea-stone" loading="lazy">
+            <img class="slide" src="assets/img/pea-stone-hand.jpg" alt="Pea stone in hand from Miller's Landscape and Supply" data-variety="pea-stone" loading="lazy">
+            <img class="slide" src="assets/img/stone-pea-detail-new.jpg" alt="Pea stone closeup from Miller's Landscape and Supply" data-variety="pea-stone" loading="lazy">
+            <img class="slide" src="assets/img/yard-ohio9-pile.jpg" alt="Ohio #9 washed stone pile" data-variety="ohio9" loading="lazy">
+          </div>
           <div class="product-body">
             <h3>Gravel &amp; Stone</h3>
             <p>Drives, pads, drainage, decorative borders. Crushed and washed.</p>
-            <ul class="varieties">
-              <li>21AA Crushed Concrete</li>
-              <li>Asphalt Millings</li>
-              <li>21AA Limestone</li>
-              <li>6A Clean Limestone</li>
-              <li>Egg Rock</li>
-              <li>Pea Stone</li>
-              <li>Ohio #9 Washed Stone</li>
+            <ul class="varieties varieties--selectable" role="tablist" aria-label="Gravel and stone varieties">
+              <li><button type="button" class="variety-chip" data-variety="21aa-concrete" role="tab" aria-selected="true">21AA Crushed Concrete</button></li>
+              <li><button type="button" class="variety-chip" data-variety="millings" role="tab" aria-selected="false">Asphalt Millings</button></li>
+              <li><button type="button" class="variety-chip" data-variety="21aa-limestone" role="tab" aria-selected="false">21AA Limestone</button></li>
+              <li><button type="button" class="variety-chip" data-variety="6a-limestone" role="tab" aria-selected="false">6A Clean Limestone</button></li>
+              <li><button type="button" class="variety-chip" data-variety="egg-rock" role="tab" aria-selected="false">Egg Rock</button></li>
+              <li><button type="button" class="variety-chip" data-variety="pea-stone" role="tab" aria-selected="false">Pea Stone</button></li>
+              <li><button type="button" class="variety-chip" data-variety="ohio9" role="tab" aria-selected="false">Ohio #9 Washed Stone</button></li>
             </ul>
             <a class="btn btn-link" href="tel:+12484378009">Call to order</a>
           </div>
@@ -232,7 +254,7 @@
             <h3>Bulk Salt</h3>
             <p>Plow contractors, businesses, and homeowners. Stored covered, ready year round.</p>
             <ul class="varieties">
-              <li>Treated &amp; untreated</li><li>By the ton</li>
+              <li>Treated &amp; untreated</li><li>By the yard</li><li>By the ton</li>
             </ul>
             <a class="btn btn-link" href="tel:+12484378009">Call to order</a>
           </div>
@@ -246,7 +268,7 @@
             <h3>Firewood</h3>
             <p>Premium hardwood, cut, split, and ready to burn.</p>
             <ul class="varieties">
-              <li>Face cord</li><li>Full cord</li><li>Bundles</li>
+              <li>Face cord</li><li>Full cord</li>
             </ul>
             <a class="btn btn-link" href="tel:+12484378009">Call to order</a>
           </div>
@@ -375,7 +397,7 @@
           <a class="btn btn-primary btn-lg" href="tel:+12484378009">Call (248) 437-8009</a>
           <a class="btn btn-ghost btn-lg" href="https://maps.google.com/?q=54001+Grand+River+Avenue+New+Hudson+MI+48165" target="_blank" rel="noopener">Open in Maps</a>
         </div>
-        <p class="contact-line">Email: <a href="mailto:info@millerslandscapesupplies.com">info@millerslandscapesupplies.com</a></p>
+        <p class="contact-line">Email: <a href="mailto:millerslandscapesupply@gmail.com">millerslandscapesupply@gmail.com</a></p>
       </div>
       <div class="visit-map">
         <iframe
@@ -413,7 +435,7 @@
       <div>
         <h4>Visit</h4>
         <p>54001 Grand River Ave<br>New Hudson, MI 48165</p>
-        <p><a href="tel:+12484378009">(248) 437-8009</a><br><a href="mailto:info@millerslandscapesupplies.com">info@millerslandscapesupplies.com</a></p>
+        <p><a href="tel:+12484378009">(248) 437-8009</a><br><a href="mailto:millerslandscapesupply@gmail.com">millerslandscapesupply@gmail.com</a></p>
       </div>
       <div>
         <h4>Hours</h4>
