@@ -205,14 +205,17 @@
         </article>
 
         <article class="product-card" id="sand">
-          <a href="#sand" class="product-media" aria-hidden="true">
-            <img src="assets/img/yard-sand.jpg" alt="Pile of sand with shovel and SAND sign at Miller's" loading="lazy">
-          </a>
+          <div class="product-media product-slideshow" data-slideshow>
+            <img class="slide is-active" src="assets/img/sand-mason-new.jpg" alt="Mason sand from Miller's Landscape and Supply" data-variety="mason" loading="lazy">
+            <img class="slide" src="assets/img/sand-detail.jpg" alt="Mason sand closeup" data-variety="mason" loading="lazy">
+            <img class="slide" src="assets/img/yard-sand.jpg" alt="Fill sand pile at Miller's yard" data-variety="fill" loading="lazy">
+          </div>
           <div class="product-body">
             <h3>Sand</h3>
             <p>Pavers, masonry, fill, leveling. Pickup truck or trailer ready.</p>
-            <ul class="varieties">
-              <li>Mason Sand</li><li>Fill Sand</li>
+            <ul class="varieties varieties--selectable" role="tablist" aria-label="Sand varieties">
+              <li><button type="button" class="variety-chip" data-variety="mason" role="tab" aria-selected="true">Mason Sand</button></li>
+              <li><button type="button" class="variety-chip" data-variety="fill" role="tab" aria-selected="false">Fill Sand</button></li>
             </ul>
             <a class="btn btn-link" href="tel:+12484378009">Call to order</a>
           </div>
@@ -221,13 +224,13 @@
         <article class="product-card" id="gravel">
           <div class="product-media product-slideshow" data-slideshow>
             <img class="slide is-active" src="assets/img/stone-21aa-crushed-new.jpg" alt="21AA crushed concrete from Miller's Landscape and Supply" data-variety="21aa-concrete" loading="lazy">
-            <img class="slide" src="assets/img/yard-asphalt-millings.jpg" alt="Asphalt millings pile" data-variety="millings" loading="lazy">
             <img class="slide" src="assets/img/stone-21aa-limestone-new.jpg" alt="21AA limestone from Miller's Landscape and Supply" data-variety="21aa-limestone" loading="lazy">
             <img class="slide" src="assets/img/stone-6a-limestone-new.jpg" alt="6A clean limestone from Miller's Landscape and Supply" data-variety="6a-limestone" loading="lazy">
             <img class="slide" src="assets/img/yard-egg-rock.jpg" alt="Egg rock pile" data-variety="egg-rock" loading="lazy">
             <img class="slide" src="assets/img/stone-pea-hand.jpg" alt="Pea stone pile from Miller's Landscape and Supply" data-variety="pea-stone" loading="lazy">
             <img class="slide" src="assets/img/pea-stone-hand.jpg" alt="Pea stone in hand from Miller's Landscape and Supply" data-variety="pea-stone" loading="lazy">
             <img class="slide" src="assets/img/stone-pea-detail-new.jpg" alt="Pea stone closeup from Miller's Landscape and Supply" data-variety="pea-stone" loading="lazy">
+            <img class="slide" src="assets/img/stone-ohio9-detail.jpg" alt="Ohio #9 washed stone closeup" data-variety="ohio9" loading="lazy">
             <img class="slide" src="assets/img/yard-ohio9-pile.jpg" alt="Ohio #9 washed stone pile" data-variety="ohio9" loading="lazy">
           </div>
           <div class="product-body">
@@ -235,7 +238,6 @@
             <p>Drives, pads, drainage, decorative borders. Crushed and washed.</p>
             <ul class="varieties varieties--selectable" role="tablist" aria-label="Gravel and stone varieties">
               <li><button type="button" class="variety-chip" data-variety="21aa-concrete" role="tab" aria-selected="true">21AA Crushed Concrete</button></li>
-              <li><button type="button" class="variety-chip" data-variety="millings" role="tab" aria-selected="false">Asphalt Millings</button></li>
               <li><button type="button" class="variety-chip" data-variety="21aa-limestone" role="tab" aria-selected="false">21AA Limestone</button></li>
               <li><button type="button" class="variety-chip" data-variety="6a-limestone" role="tab" aria-selected="false">6A Clean Limestone</button></li>
               <li><button type="button" class="variety-chip" data-variety="egg-rock" role="tab" aria-selected="false">Egg Rock</button></li>
@@ -333,8 +335,9 @@
       </header>
       <div class="texture-grid">
         <figure><img src="assets/img/mulch-cedar-detail.jpg" alt="Cedar mulch closeup" loading="lazy"><figcaption>Cedar mulch</figcaption></figure>
-        <figure><img src="assets/img/mulch-red.jpg" alt="Red mulch closeup" loading="lazy"><figcaption>Red mulch</figcaption></figure>
         <figure><img src="assets/img/mulch-black-hand.jpg" alt="Black mulch in hand" loading="lazy"><figcaption>Black mulch</figcaption></figure>
+        <figure><img src="assets/img/mulch-brown-hand.jpg" alt="Brown mulch in hand" loading="lazy"><figcaption>Brown mulch</figcaption></figure>
+        <figure><img src="assets/img/mulch-mixed-hand.jpg" alt="Mixed hardwood mulch in hand" loading="lazy"><figcaption>Mixed hardwood mulch</figcaption></figure>
         <figure><img src="assets/img/compost-hand.jpg" alt="Compost in hand" loading="lazy"><figcaption>Compost</figcaption></figure>
         <figure><img src="assets/img/topsoil-detail.jpg" alt="Topsoil closeup" loading="lazy"><figcaption>Premium topsoil</figcaption></figure>
         <figure><img src="assets/img/sand-detail.jpg" alt="Mason sand closeup" loading="lazy"><figcaption>Mason sand</figcaption></figure>
@@ -343,7 +346,8 @@
         <figure><img src="assets/img/stone-21aa-mix.jpg" alt="21AA limestone mix closeup" loading="lazy"><figcaption>21AA limestone</figcaption></figure>
         <figure><img src="assets/img/pea-stone-hand.jpg" alt="Pea stone in hand" loading="lazy"><figcaption>Pea stone</figcaption></figure>
         <figure><img src="assets/img/yard-egg-rock.jpg" alt="Egg rock pile" loading="lazy"><figcaption>Egg rock</figcaption></figure>
-        <figure><img src="assets/img/yard-asphalt-millings.jpg" alt="Asphalt millings pile" loading="lazy"><figcaption>Asphalt millings</figcaption></figure>
+        <figure><img src="assets/img/stone-ohio9-detail.jpg" alt="Ohio #9 washed stone closeup" loading="lazy"><figcaption>Ohio #9 washed stone</figcaption></figure>
+        <figure><img src="assets/img/sand-mason-new.jpg" alt="Mason sand closeup" loading="lazy"><figcaption>Mason sand</figcaption></figure>
       </div>
     </div>
   </section>
@@ -367,7 +371,7 @@
         </div>
       </div>
       <aside class="delivery-side">
-        <img src="assets/img/yard-asphalt-millings.jpg" alt="Asphalt millings pile at Miller's yard" loading="lazy">
+        <img src="assets/img/yard-gravel-stone.jpg" alt="Bulk gravel and stone at Miller's yard" loading="lazy">
       </aside>
     </div>
   </section>
